@@ -1,0 +1,450 @@
+[
+    {
+     "id": 1, 
+     "name": "Duke",
+     "seed": 1,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 2, 
+        "name": "North Dakota St",
+        "seed": 16,
+        "Division": "East",
+        "wins": 0  
+    },
+    {
+        "id": 3, 
+     "name": "VCU",
+     "seed": 8,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 4, 
+     "name": "UCF",
+     "seed": 9,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 5, 
+     "name": "Mississippi St",
+     "seed": 5,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 6, 
+     "name": "Liberty",
+     "seed": 12,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 7, 
+     "name": "Virginia Tech",
+     "seed": 4,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 8, 
+     "name": "Saint Louis",
+     "seed": 13,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 9, 
+     "name": "Maryland",
+     "seed": 6,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 11, 
+     "name": "Belmont",
+     "seed": 11,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 12, 
+     "name": "LSU",
+     "seed": 3,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 13, 
+     "name": "Yale",
+     "seed": 14,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 14, 
+     "name": "Louisville",
+     "seed": 7,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 15, 
+     "name": "Minnesota",
+     "seed": 10,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 16, 
+     "name": "Michigan St",
+     "seed": 2,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 17, 
+     "name": "Bradley",
+     "seed": 15,
+     "Division": "East",
+     "wins": 0  
+    },
+    {
+        "id": 18, 
+     "name": "Gonzaga",
+     "seed": 1,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 19, 
+     "name": "Fairleigh",
+     "seed": 16,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 20, 
+     "name": "Syracuse",
+     "seed": 8,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 21, 
+     "name": "Baylor",
+     "seed": 9,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 22, 
+     "name": "Marquette",
+     "seed": 5,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 23, 
+     "name": "Murray",
+     "seed": 12,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 24, 
+     "name": "Florida St",
+     "seed": 4,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 25, 
+     "name": "Vermont",
+     "seed": 13,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 26, 
+     "name": "Buffalo",
+     "seed": 6,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 27, 
+     "name": "Arizona St",
+     "seed": 11,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 28, 
+     "name": "Texas Tech",
+     "seed": 3,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 29, 
+     "name": "Northern Kentucky",
+     "seed": 14,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 30, 
+     "name": "Nevada",
+     "seed": 7,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 31, 
+     "name": "Florida",
+     "seed": 10,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 32, 
+     "name": "Michigan",
+     "seed": 2,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 33, 
+     "name": "Montana",
+     "seed": 15,
+     "Division": "West",
+     "wins": 0  
+    },
+    {
+        "id": 34, 
+     "name": "Virginia",
+     "seed": 1,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 35, 
+     "name": "Gardner-Webb",
+     "seed": 16,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 36, 
+     "name": "Mississippi",
+     "seed": 18,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 37, 
+     "name": "Oklahoma",
+     "seed": 9,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 38, 
+     "name": "Wisconsin",
+     "seed": 5,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 39, 
+     "name": "Oregon",
+     "seed": 12,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 40, 
+     "name": "Kansas State",
+     "seed": 4,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 41, 
+     "name": "UC Irvine",
+     "seed": 13,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 42, 
+     "name": "Villanova",
+     "seed": 6,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 43, 
+     "name": "Saint Mary's",
+     "seed": 11,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 44, 
+     "name": "Purdue",
+     "seed": 3,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 45, 
+     "name": "Old Dominion",
+     "seed": 14,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 46, 
+     "name": "Cincinnati",
+     "seed": 7,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 47, 
+     "name": "Iowa",
+     "seed": 10,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 48, 
+     "name": "Tennessee",
+     "seed": 2,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 49, 
+     "name": "Colgate",
+     "seed": 15,
+     "Division": "South",
+     "wins": 0  
+    },
+    {
+        "id": 50, 
+     "name": "North Carolina",
+     "seed": 1,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 51, 
+     "name": "Iona",
+     "seed": 16,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 52, 
+     "name": "Utah State",
+     "seed": 8,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 53, 
+     "name": "Washington",
+     "seed": 9,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 54, 
+     "name": "Auburn",
+     "seed": 5,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 55, 
+     "name": "New Mexico State",
+     "seed": 12,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 56, 
+     "name": "Kansas",
+     "seed": 4,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 57, 
+     "name": "Northeastern",
+     "seed": 13,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 59, 
+     "name": "Iowa State",
+     "seed": 6,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 60, 
+     "name": "Ohio State",
+     "seed": 11,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 61, 
+     "name": "Houston",
+     "seed": 3,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 62, 
+     "name": "Georiga State",
+     "seed": 14,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 63, 
+     "name": "Wofford",
+     "seed": 7,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 64, 
+     "name": "Seton Hall",
+     "seed": 10,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 65, 
+     "name": "Kentucky",
+     "seed": 2,
+     "Division": "Midwest",
+     "wins": 0  
+    },
+    {
+        "id": 66, 
+     "name": "Abilene Christian",
+     "seed": 15,
+     "Division": "Midwest",
+     "wins": 0  
+    }
+]

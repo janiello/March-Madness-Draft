@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './components/layout/Header';
+import Teams from './components/layout/Teams';
+import Rules from './components/layout/Rules';
+import BracketSubhead from './components/layout/BracketSubhead';
+import Bracket from './components/layout/Bracket';
 import './App.css';
+import RulesSubhead from './components/layout/TeamsSubhead';
+import TeamsSubhead from './components/layout/RulesSubhead';
+class App extends Component {
+    state = [
+        
+    ]
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    render() {
+        return (
+            <Router>
+                <div className="App">
+                    <Header />
+                    <Route exact path={"/"} render={(props) => (
+                        <React.Fragment>
+                            <RulesSubhead />
+                            <Rules />
+                        </React.Fragment>
+                    )} />
+                    <Route path={"/Teams"} render={(props) => (
+                        <React.Fragment>
+                            <TeamsSubhead />
+                            <Teams />
+                        </React.Fragment>
+                    )}
+                    />
+                    <Route path={"/Bracket"} render={(props) => (
+                        <React.Fragment>
+                            <BracketSubhead />
+                            <Bracket />
+                        </React.Fragment>
+                    )}
+                    />
+                </div>
+            </Router>
+        )
+    }
 }
 
 export default App;
