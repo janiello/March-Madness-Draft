@@ -8,9 +8,10 @@ class GameWin1 extends Component {
         return (
             <div>
                 <div className="left">
+                  
                     <div className="win1">
                         <div className="box1">
-                            <p>{this.props.game1}</p>
+                            {this.props.game1}
                         </div>
                         <div className="box1"><p>{this.props.game2}</p></div>
                     </div>

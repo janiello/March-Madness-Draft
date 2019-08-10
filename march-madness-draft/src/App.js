@@ -9,9 +9,6 @@ import './App.css';
 import RulesSubhead from './components/layout/TeamsSubhead';
 import TeamsSubhead from './components/layout/RulesSubhead';
 class App extends Component {
-    state = [
-        
-    ]
 
     render() {
         return (

@@ -5,6 +5,7 @@ import GameWin1 from "../../../GAMES/gameWin1";
 import GameWin2 from "../../../GAMES/gameWin2";
 import GameWin3 from "../../../GAMES/gameWin3";
 import Championship from "../../../GAMES/championship";
+import Button from "../../../button"
 
 
 class EastGames extends Component {
@@ -24,8 +25,33 @@ class EastGames extends Component {
         gamewin07: "",
         gamewin08: ""
     };
-
     componentDidMount() {
+
+    
+    
+        const Game1 = [];
+       // const Score1 = [];
+      //  const Score0001 = [];
+        // eslint-disable-next-line
+        this.state.Teams.map(teams => {
+            if (teams.Division === "East") {
+                Game1.push(teams.name);
+               // Score1.push(teams.wins)
+            }
+        });
+        // Score1.forEach(function (element) {
+        //     let min = 35;
+        //     let max = 101;
+        //     element = Math.floor(Math.random() * (max - min) + min);
+        //     Score0001.push(element)
+        // })
+        this.setState({
+            game01: Game1
+           // score001: Score0001
+        })
+    }
+    handleButton = () => {
+        
         const Game1 = [];
         const Score1 = [];
         const Score0001 = [];
@@ -46,7 +72,6 @@ class EastGames extends Component {
             game01: Game1,
             score001: Score0001
         })
-
         setTimeout(() => {
         if (this.state.score001[0] > this.state.score001[1]) {
             this.setState({
@@ -138,7 +163,7 @@ class EastGames extends Component {
         };
 
         // console.log(gameWinner1)
-    }, 7000)
+    }, 0)
     };
     render() {
         const game1 = this.state.gamewin01;
@@ -153,13 +178,12 @@ class EastGames extends Component {
         // console.log(animal)
         return (
             <div>
-                {/* <Button click={this.handleButton} className="button1" name="Start" /> */}
+                <Button click={this.handleButton} className="button1" name="Start" />
                 <GameWin1 game1={game1} game2={game2} game3={game3} game4={game4} game5={game5} game6={game6} game7={game7} game8={game8} />
                 <GameWin2 />
                 <GameWin3 />
                 <Championship />
                 <div className="regionE">
-                    <h3>East</h3>
                     <div className="egame1">
                         {this.state.game01[0]}
                         <br />

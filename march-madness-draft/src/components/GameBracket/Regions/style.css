@@ -14,21 +14,24 @@
     position: absolute;
     background-color: darkgray;
     color: darkblue;
-    height: 45vh;
-    width: 15vw;
+    height: 45%;
+    width: 15%;
     top: 1%;
     left:1%;
     text-align: center;
     border: 2px solid red;
     border-radius: 2%;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     
 }
 .regionS {
     position: absolute;
    background-color: darkgray;
-    height: 45vh;
-    width: 15vw;
+    height: 45%;
+    width: 15%;
     top: 1%;
     right: 1%;
     text-align: center;
@@ -36,12 +39,15 @@
     border-radius: 2%;
     color: darkblue;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .regionW {
     position: absolute;
     background-color: darkgray;
-    height: 45vh;
-    width: 15vw;
+    height: 45%;
+    width: 15%;
     bottom: 1%;
     left: 1%;
     text-align: center;
@@ -49,12 +55,15 @@
     border-radius: 2%;
     color: darkblue;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .regionMW {
     position: absolute;
     background-color: darkgray;
-    height: 45vh;
-    width: 15vw;
+    height: 45%;
+    width: 15%;
     bottom: 1%;
     right: 1%;
     text-align: center;
@@ -62,6 +71,9 @@
     border-radius: 2%;
     color: darkblue;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .gameone {
     background-color: black;
@@ -71,33 +83,35 @@
     top: 5%;
     left: 50%;
 }
-/* .egame1 {
-    position: relative;
-    margin: 0;
-    
-    text-align: left;
-    font-size: 80.5%;
-    border-radius: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 1px solid blue;
-}
-
-.vs {
-    margin: 0;
-    border: 1px solid red;
-    width: 40%;
-}
-.score001{
-    margin: 0;
+.E {
+    border: 4px solid blue;
+    color: darkblue;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10%;
+    left: 38%;
+    border-radius: 5%;
 }
-.score002 {
-    margin: 0;
+.W {
+    border: 4px solid blue;
+    color: darkblue;
     position: absolute;
-    bottom: 0;
-    right: 0;
-} */
+    bottom: 10%;
+    left: 38%;
+    border-radius: 5%;
+}
+.S {
+    border: 4px solid blue;
+    color: darkblue;
+    position: absolute;
+    top: 10%;
+    right: 38%;
+    border-radius: 5%;
+}
+.MW {
+    border: 4px solid blue;
+    color: darkblue;
+    position: absolute;
+    bottom: 10%;
+    right: 38%;
+    border-radius: 5%;
+}

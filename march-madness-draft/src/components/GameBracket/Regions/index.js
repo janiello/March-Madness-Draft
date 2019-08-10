@@ -10,6 +10,18 @@ class Regions extends Component {
         return (
             <Wrapper>
                 <div className="ERgames">
+                    <div className="E">
+                        <h1>East</h1>
+                    </div>
+                    <div className="W">
+                        <h1>West</h1>
+                    </div>
+                    <div className="S">
+                        <h1>South</h1>
+                    </div>
+                    <div className="MW">
+                        <h1>MidWest</h1>
+                    </div>
                     <EastGames />
                     <SouthGames />
                     <WestGames />

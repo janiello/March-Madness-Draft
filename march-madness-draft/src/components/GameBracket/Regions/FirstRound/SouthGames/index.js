@@ -155,7 +155,6 @@ class SouthGames extends Component {
                 {/* <Button click={this.handleButton} className="button1" name="Start" /> */}
                 <GameWin1 game001={game001} game002={game002} game003={game003} game004={game004} game005={game005} game006={game006} game007={game007} game008={game008} />
                 <div className="regionS">
-                    <h3>South</h3>
                     <div className="egameS">
                         {this.state.game01[0]}
                         <br />
