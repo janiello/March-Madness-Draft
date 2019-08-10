@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-const Bracket = (props) => {
+const Wrapper = (props) => {
     return (
         <div className="bracket">{props.children}</div>
     )
 };
 
-export default Bracket;
+export default Wrapper;
 

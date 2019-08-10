@@ -1,12 +1,13 @@
 import React from 'react';
 
-function TeamsSubhead(){
+function Teams(){
     return(
         <header>
             <h3>Of the four regions- South, West, East, and Midwest -, only one can win.</h3>
-        </header>
+        </header>,
+        <p>Teams Div</p>
     )
 }
 
 
-export default TeamsSubhead;
+export default Teams;

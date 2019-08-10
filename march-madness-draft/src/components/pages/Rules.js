@@ -1,12 +1,13 @@
 import React from 'react';
 
-function RulesSubhead(){
+function Rules(){
     return(
         <header>
             <h3>The rules to the game are as follows:</h3>
-        </header>
+        </header>,
+        <p>Rules Div</p>
     )
 }
 
 
-export default RulesSubhead;
+export default Rules;
