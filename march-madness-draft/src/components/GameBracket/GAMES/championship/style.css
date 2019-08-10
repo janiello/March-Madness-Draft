@@ -1,0 +1,11 @@
+.championship {
+    position: absolute;
+    top: 33%;
+    left: 36.2%;
+    background-color: blue;
+    height: 32vh;
+    width: 26vw;
+    border-radius: 5%;
+    border: 2px solid red;
+
+}

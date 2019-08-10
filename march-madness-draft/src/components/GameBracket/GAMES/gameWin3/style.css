@@ -1,0 +1,50 @@
+.win3 { 
+    height: 10vh;
+    width: 10vw; 
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 5%;
+    color: white;
+    background-color: blue;
+    margin: 0;
+   
+    
+
+ }
+ .left4 {
+     position: absolute;
+     top: 0;
+     left: 34%;
+     height: 48vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+    
+ }
+ .bottomLeft4 {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .right4{
+    position: absolute;
+    top: 0;
+    right: 34%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .bottomRight4 {
+    position: absolute;
+    top: 50%;
+    right: 34%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
