@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from './components/layout/Header';
-import Teams from './components/layout/Teams';
-import Rules from './components/layout/Rules';
-import BracketSubhead from './components/layout/BracketSubhead';
-import Bracket from './components/layout/Bracket';
+import Bracket from './components/pages/Bracket';
+import Teams from './components/pages/Teams';
+import Rules from './components/pages/Rules';
+import Nav from './components/pages/Nav';
 import './App.css';
-import RulesSubhead from './components/layout/TeamsSubhead';
-import TeamsSubhead from './components/layout/RulesSubhead';
+
 class App extends Component {
     state = [
         
@@ -17,23 +15,20 @@ class App extends Component {
         return (
             <Router>
                 <div className="App">
-                    <Header />
+                    <Nav />
                     <Route exact path={"/"} render={(props) => (
                         <React.Fragment>
-                            <RulesSubhead />
                             <Rules />
                         </React.Fragment>
                     )} />
                     <Route path={"/Teams"} render={(props) => (
                         <React.Fragment>
-                            <TeamsSubhead />
                             <Teams />
                         </React.Fragment>
                     )}
                     />
                     <Route path={"/Bracket"} render={(props) => (
                         <React.Fragment>
-                            <BracketSubhead />
                             <Bracket />
                         </React.Fragment>
                     )}
