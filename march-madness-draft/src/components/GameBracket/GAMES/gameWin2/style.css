@@ -1,0 +1,51 @@
+
+ .win2 { 
+    height: 10vh;
+    width: 8vw; 
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 5%;
+    color: white;
+    background-color: blue;
+    margin: 0;
+   
+    
+
+ }
+ .left3 {
+     position: absolute;
+     top: 0;
+     left: 27%;
+     height: 48vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+    
+ }
+ .bottomLeft3 {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .right3{
+    position: absolute;
+    top: 0;
+    right: 27%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .bottomRight3 {
+    position: absolute;
+    top: 50%;
+    right: 27%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }

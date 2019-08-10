@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Wrapper from "../GameBracket/Wrapper";
+import Regions from "../GameBracket/Regions";
 function Bracket(){
     return(
-        <p>Bracket Div</p>
-
+        <Wrapper>
+            <Regions />
+        </Wrapper>
     )
 }
 
