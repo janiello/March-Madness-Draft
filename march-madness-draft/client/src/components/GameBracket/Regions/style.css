@@ -1,0 +1,117 @@
+.regions {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 95%;
+    width: 95%;
+    position:relative;
+    border-radius: 2%;
+/* go back and create just one region and reuse it for the rest  */
+   
+}
+.regionE{
+    position: absolute;
+    background-color: darkgray;
+    color: darkblue;
+    height: 45%;
+    width: 15%;
+    top: 1%;
+    left:1%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 2%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.regionS {
+    position: absolute;
+   background-color: darkgray;
+    height: 45%;
+    width: 15%;
+    top: 1%;
+    right: 1%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 2%;
+    color: darkblue;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.regionW {
+    position: absolute;
+    background-color: darkgray;
+    height: 45%;
+    width: 15%;
+    bottom: 1%;
+    left: 1%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 2%;
+    color: darkblue;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.regionMW {
+    position: absolute;
+    background-color: darkgray;
+    height: 45%;
+    width: 15%;
+    bottom: 1%;
+    right: 1%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 2%;
+    color: darkblue;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.gameone {
+    background-color: black;
+}
+.button1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+.E {
+    border: 4px solid blue;
+    color: darkblue;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    border-radius: 5%;
+}
+.W {
+    border: 4px solid blue;
+    color: darkblue;
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+    border-radius: 5%;
+}
+.S {
+    border: 4px solid blue;
+    color: darkblue;
+    position: absolute;
+    top: 10%;
+    right: 38%;
+    border-radius: 5%;
+}
+.MW {
+    border: 4px solid blue;
+    color: darkblue;
+    position: absolute;
+    bottom: 10%;
+    right: 38%;
+    border-radius: 5%;
+}
