@@ -1,0 +1,27 @@
+
+.egame1 {
+    position: relative;
+    margin: 0;
+    text-align: left;
+    font-size: 80.5%;
+    border-radius: 3%;
+    border: 1px solid blue;
+}
+
+.vs {
+    margin: 0;
+    border: 1px solid red;
+    width: 60%;
+}
+.score001{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.score002 {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
