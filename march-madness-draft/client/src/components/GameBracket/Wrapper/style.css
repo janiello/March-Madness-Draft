@@ -1,5 +1,10 @@
 .bracket {
-    background-color: darkgray;
+    background: url("../Wrapper/img/March-Madness-Logo.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    white-space: nowrap;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

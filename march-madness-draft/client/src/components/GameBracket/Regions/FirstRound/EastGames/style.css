@@ -5,6 +5,7 @@
     text-align: left;
     font-size: 80.5%;
     border-radius: 3%;
+    white-space: nowrap;
     /* display: flex;
     flex-direction: column;
     justify-content: space-evenly; */
