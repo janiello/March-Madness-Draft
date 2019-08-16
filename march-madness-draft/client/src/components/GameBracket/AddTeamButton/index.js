@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-import API from "../../utils/API";
+import API from "../../../utils/API";
 import Teams from "../../../teams.json";
 class AddTeam extends Component {
     constructor(props) {

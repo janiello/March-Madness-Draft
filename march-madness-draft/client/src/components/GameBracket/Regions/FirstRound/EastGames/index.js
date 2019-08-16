@@ -6,7 +6,7 @@ import GameWin2 from "../../../GAMES/gameWin2";
 import GameWin3 from "../../../GAMES/gameWin3";
 import Championship from "../../../GAMES/championship";
 import Button from "../../../button"
-import API from "../../../../utils/API";
+import API from "../../../../../utils/API";
 import AddTeam from "../../../AddTeamButton";
 //import AddTeam from "../../../AddTeamButton";
 

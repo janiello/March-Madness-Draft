@@ -1,5 +1,6 @@
 
 .egameMW {
+    white-space: nowrap;
     position: relative;
     margin: 0;
     text-align: right;
@@ -9,6 +10,7 @@
 }
 
 .vsMW {
+    white-space: nowrap;
     margin: 0;
     border: 1px solid red;
     width: 60%;
@@ -16,12 +18,14 @@
     right: 0;
 }
 .scoreMW{
+    white-space: nowrap;
     margin: 0;
     position: absolute;
     top: 0;
     left: 0;
 }
 .scoreMW2 {
+    white-space: 'nowrap';
     margin: 0;
     position: absolute;
     bottom: 0;
