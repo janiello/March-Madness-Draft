@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Bracket from './components/pages/Bracket';
-import Teams from './components/pages/Teams';
-import Rules from './components/pages/Rules';
-import Nav from './components/pages/Nav';
+import Bracket from './pages/Bracket';
+import Teams from './pages/Teams';
+import Rules from './pages/Rules';
+import Nav from './pages/Nav';
 import './App.css';
 
 class App extends Component {
