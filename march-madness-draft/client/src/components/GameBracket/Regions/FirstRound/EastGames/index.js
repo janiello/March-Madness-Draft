@@ -76,7 +76,7 @@ class EastGames extends Component {
             this.setState({Teams: eastGames})
             };   
         });
-        console.log(eastGames)
+     //   console.log(eastGames)
         // Score1.forEach(function (element) {
         //     let min = 35;
         //     let max = 101;

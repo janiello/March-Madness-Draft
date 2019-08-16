@@ -6,31 +6,52 @@ class AddTeam extends Component {
     constructor(props) {
         super(props);
         this.state = {
-        Teams: []
+        Teams,
+        team1: []
     };
    
 }
-    handleAddingTeamToUser = () => {
-        const addTeams = [];
-        Teams.map(teams => {
-            if (teams.name === this.props.addteam){
-                addTeams.push(teams)
-            }
-        })
-        API.getUsers()
+// componentDidMount() {
+//     const addTeams = [];
+//     this.state.Teams.map(teams => {
+//         console.log(teams.id)
+//                     if (teams.id === this.props.addteam){
+//                         addTeams.push(teams);
+//                     };
+//                 });
+//     this.setState({team1: addTeams})
+// }
+handleAddingTeamToUser = () => {
+    const addTeams = [];
+    const userLoggedIn = [];
+    const userID = [];
+    const updatedUserTeam = [];
+    let teamSeed;
+    Teams.map(teams => {
+                if (teams.name === this.props.addteam){
+                    addTeams.push(teams);
+                    teamSeed = teams.seed
+                };
+            });
+            console.log(this.state.team1)
+    API.getUsers()
         .then(res => {
             res.data.map(user => {
         if (user.username === "Eduardo") {
-            
-        };
-    });
-       });
-       console.log(addTeams)
-           
+         API.saveTeam({
+             "_id" : user._id,
+             "teams" : addTeams,
+             "score" : teamSeed
+         })
+                };
+            });
+               });   
+
         
     };
   
     render() {
+        
         return(
                 <button addteam={this.props.children} onClick={this.handleAddingTeamToUser}>AddTeam</button>
         )

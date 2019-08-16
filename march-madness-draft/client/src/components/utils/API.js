@@ -16,7 +16,8 @@ export default {
         return axios.post("/api/users", userData);
     },
     saveTeam: function (teamData) {
-        return axios.post("/api/teams", teamData)
+        console.log(teamData)
+        return axios.post("/api/users", teamData)
     }
 
 }
