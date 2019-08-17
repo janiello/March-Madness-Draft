@@ -15,9 +15,10 @@ module.exports = {
     .catch(err => res.status(422).json(err));
   },
   findById: function(req, res) {
+   console.log(req.params.id)
     db.User
-      .findOne({ _id: req.params.id })
-      .then(dbModel => res.json(dbModel))
+      .findById(req.params.id)
+      .then(dbModel => {res.json(dbModel)})
       .catch(err => res.status(422).json(err));
   },
   // // create: function(req, res) {
@@ -27,8 +28,9 @@ module.exports = {
   // //     .catch(err => res.status(422).json(err));
   // // },
   update: function(req, res) {
+    console.log(req.body + "what is going on")
     db.User
-    .findOneAndUpdate({ _id: req.params.id }, req.body)
+    .findByIdAndUpdate({_id: req.params.id}, {$set: {score: 6}})
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(422).json(err));
     }
