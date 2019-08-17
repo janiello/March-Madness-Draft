@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from "../components/GameBracket/Wrapper";
 import Regions from "../components/GameBracket/Regions";
-import API from "../utils/API";
+
 
 function Bracket(){
     return(

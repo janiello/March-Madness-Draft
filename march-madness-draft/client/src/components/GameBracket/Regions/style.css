@@ -1,6 +1,5 @@
 .regions {
     white-space: nowrap;
-    background-color: rgb(156, 151, 151);
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -14,7 +13,6 @@
 .regionE{
     white-space: nowrap;
     position: absolute;
-    background-color: darkgray;
     color: darkblue;
     height: 45%;
     width: 15%;
@@ -27,6 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
     
 }
 .regionS {
@@ -95,9 +94,10 @@
     border: 4px solid blue;
     color: darkblue;
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 38%;
     border-radius: 5%;
+    background-color: darkgrey;
 }
 .W {
     white-space: nowrap;
@@ -107,15 +107,17 @@
     bottom: 10%;
     left: 38%;
     border-radius: 5%;
+    background-color: darkgrey;
 }
 .S {
     white-space: nowrap;
     border: 4px solid blue;
     color: darkblue;
     position: absolute;
-    top: 10%;
+    top: 8%;
     right: 38%;
     border-radius: 5%;
+    background-color: darkgrey;
 }
 .MW {
     white-space: nowrap;
@@ -125,4 +127,5 @@
     bottom: 10%;
     right: 38%;
     border-radius: 5%;
+    background-color: darkgrey;
 }
