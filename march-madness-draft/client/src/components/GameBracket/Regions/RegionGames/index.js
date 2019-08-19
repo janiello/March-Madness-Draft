@@ -31,7 +31,7 @@ class RegionGames extends Component {
     componentDidMount() {   
        this.loadTeams();
     };
-    
+    // teams are set too a state 
     loadTeams = () => {
         
         const eastGames = [];
