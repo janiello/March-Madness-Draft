@@ -4,7 +4,7 @@ import "./style.css";
 class Button extends Component {
     render() {
         return(
-            <button id="Button" onClick={this.props.click}>{this.props.name}</button>
+            <button className="Button" onClick={this.props.click}>{this.props.name}</button>
         );
     }
 }
