@@ -1,16 +1,17 @@
 import React from 'react';
 import Wrapper from "../components/GameBracket/Wrapper";
 import Regions from "../components/GameBracket/Regions";
+import Table from "../components/Draftboard/Table";
 
 
 function Bracket(){
-    return(
-        <header>
-            <h3>The Teams. The Games. The Bracket.</h3>
-        </header>,
-        <Wrapper>
-            <Regions />
-        </Wrapper>
+    return (
+        <div>
+            <Table />
+            <Wrapper>
+                <Regions />
+            </Wrapper>
+        </div>
     )
 };
 
