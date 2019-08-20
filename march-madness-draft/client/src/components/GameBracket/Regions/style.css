@@ -31,7 +31,6 @@
 .regionS {
     white-space: nowrap;
     position: absolute;
-   background-color: darkgray;
     height: 45%;
     width: 15%;
     top: 1%;
@@ -48,7 +47,6 @@
 .regionW {
     white-space: nowrap;
     position: absolute;
-    background-color: darkgray;
     height: 45%;
     width: 15%;
     bottom: 1%;
@@ -65,7 +63,6 @@
 .regionMW {
     white-space: nowrap;
     position: absolute;
-    background-color: darkgray;
     height: 45%;
     width: 15%;
     bottom: 1%;

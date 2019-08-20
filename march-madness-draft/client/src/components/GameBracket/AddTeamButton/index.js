@@ -9,12 +9,15 @@ class AddTeam extends Component {
         Teams,
         team1: [],
         User: [],
-        UserID: []
+        UserID: [],
+        Users: []
     };
    
 }
 componentDidMount() {
   this.loadUser();
+ 
+
 }
 loadUser = () => {
     const userLoggedIn = [];
@@ -28,39 +31,54 @@ loadUser = () => {
                 User : user,
                 UserID : user._id
             });
+           
             };
         })
 })
 }
 handleAddingTeamToUser = (event) => {
     event.preventDefault();
+    this.searchUsersTeam();
     const addTeams = [];
-    const userLoggedIn = [];
     let userID;
-    const updatedUserTeam = [];
     let teamSeed;
     Teams.map(teams => {
-                if (teams.name === this.props.addteam){
-                    addTeams.push(teams);                
-                    teamSeed = teams.seed                 
+         if (teams.name === this.props.addteam){
+             addTeams.push(teams);                
+             teamSeed = teams.seed                 
                 };
             });
     
-    API.saveTeam(
-       {
-            "id": this.state.UserID,
-            "score" : teamSeed
-        } )
-            .then(res => this.loadUser())
-            .catch(err => console.log(err))
-                        
-        
-    };
+     if (this.state.User.teams.length >= 8){
+        alert("too many teams");
+
+    } else {
+        API.saveTeam(
+            {
+                "id": this.state.UserID,
+            },
+            {
+                "teams" : addTeams
+            })
+            .catch(err => console.log(err))                        
+;}
+};
+searchUsersTeam = () => {
+    const teamsInArray = []
+    API.getUsers()
+    .then( res => {
+        res.data.map(users => teamsInArray.push(users.teams.name))
+        if (teamsInArray === this.props.addteam){
+            alert("team taken")
+        }
+        console.log(teamsInArray)
+    })
+}
   
     render() {
-        
+       
         return(
-                <button className={this.props.children} addteam={this.props.children} onClick={this.handleAddingTeamToUser}>AddTeam</button>
+                <button addteam={this.props.children} onClick={this.handleAddingTeamToUser} className={this.props.addCSS}>AddTeam</button>
         )
     }
 }

@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
-import EastGames from "./FirstRound/EastGames";
-import WestGames from "./FirstRound/WestGames"
+import RegionGames from "./RegionGames";
 import Wrapper from "../Wrapper";
-import SouthGames from "./FirstRound/SouthGames";
-import MidWestGames from "./FirstRound/MidWest";
+
 class Regions extends Component {
     render() {
         return (
@@ -22,10 +20,7 @@ class Regions extends Component {
                     <div className="MW">
                         <h1>MidWest</h1>
                     </div>
-                    <EastGames />
-                    <SouthGames />
-                    <WestGames />
-                    <MidWestGames />
+                    <RegionGames />
                 </div>
             </Wrapper>
         );
