@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
+import "./css/style.css";
+import API from "../utils/API";
 
-function Rules() {
+class Rules extends Component {
+  
+    render() {
+      
     return (
-        <div style={aboutStyle}>
+        <div className="rulesBody">
+        <div className="aboutStyle">
             <h1>About Alleyoop</h1>
 
             <p>Sixty-four teams, four regions, six rounds, one winner.
@@ -20,15 +26,12 @@ function Rules() {
             <br/><br/>
             Good luck!
             </p>
-
-
-        </div>
+ </div>
+ <iframe width="806" height="453" src="https://www.youtube.com/embed/BLDb8sK95PE" 
+ frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+ </div>
     )
 }
-
-const aboutStyle = {
-    textAlign: 'left',
-    padding: '10px 250px 0px 250px',
 }
 
 

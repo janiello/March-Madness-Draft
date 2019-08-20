@@ -29,24 +29,12 @@ class App extends Component {
                         <React.Fragment>
                             <Bracket />
                         </React.Fragment>
-                    )}
-                    />
-                </div>
+                    )} />
+                    </div>
             </Router>
+           
         )
     }
  }
-// class App extends Component {
-//     render() {
-//         return(
-//             <div className="App">
-//                 <Nav />
-//                 <Rules />
-//                 <Teams />
-//                 <Bracket />
-//             </div>
-//         )
-//     }
-// }
 
 export default App;

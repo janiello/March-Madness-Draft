@@ -1,17 +1,15 @@
 import React from 'react';
-import Wrapper from "../components/GameBracket/Wrapper";
-import Regions from "../components/GameBracket/Regions";
+import Wrap from "../components/GameBracket/Wrapper";
 import Table from "../components/Draftboard/Table";
-
+import "./css/style.css";
+import Regions from "../components/GameBracket/Regions";
 
 function Bracket(){
 
     return (
-        <div>
-            <Table />
-            <Wrapper>
-                <Regions />
-            </Wrapper>
+        <div className="bracketContainer">
+            <Table tableCSS="tableCSS" />
+            <Wrap wrapperCSS="wrapperCSS" regions={<Regions />} />
         </div>
     )
 };
