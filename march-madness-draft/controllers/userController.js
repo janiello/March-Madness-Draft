@@ -28,9 +28,10 @@ module.exports = {
   // //     .catch(err => res.status(422).json(err));
   // // },
   update: function(req, res) {
-    console.log(req.body + "what is going on")
+    console.log(req.body)
+    
     db.User
-    .findByIdAndUpdate({_id: req.params.id}, {$set: {score: 6}})
+    .findByIdAndUpdate({_id: req.params.id}, {$addToSet: {teams: req.body.teams}})
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(422).json(err));
     }
@@ -40,5 +41,5 @@ module.exports = {
   //     .then(dbModel => dbModel.remove())
   //     .then(dbModel => res.json(dbModel))
   //     .catch(err => res.status(422).json(err));
-  // }
+  // }, {$addToSet: {teams: req.body, $limit: 8}}
 };

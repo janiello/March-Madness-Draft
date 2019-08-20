@@ -5,6 +5,7 @@ import Table from "../components/Draftboard/Table";
 
 
 function Bracket(){
+
     return (
         <div>
             <Table />

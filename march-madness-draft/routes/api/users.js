@@ -7,9 +7,9 @@ router.route("/Bracket").get(usersController.displayAll);
 router.route("/")
 .get(userController.findAll);
 
-// Matches with "/api/user/:id on localhost:3001"
+// Matches with "/api/user/:id "
 router
 .route("/:id")
 .get(userController.findById)
-.put(userController.update);
+.post(userController.update);
 module.exports = router;
