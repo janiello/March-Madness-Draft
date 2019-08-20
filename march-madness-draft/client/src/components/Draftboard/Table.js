@@ -1,9 +1,9 @@
 import React from "react";
 import TableData from "./TableData";
 
-function Table() {
+function Table(props) {
     return (
-        <div className="draftboard">
+        <div className={props.tableCSS}>
             <table className="user-data">
                 <tr className="header">
                     <th>User</th>

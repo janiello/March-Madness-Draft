@@ -3,8 +3,6 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    height: 95%;
-    width: 95%;
     position:relative;
     border-radius: 2%;
 /* go back and create just one region and reuse it for the rest  */

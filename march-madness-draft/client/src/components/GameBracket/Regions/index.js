@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 import RegionGames from "./RegionGames";
-import Wrapper from "../Wrapper";
 
-class Regions extends Component {
-    render() {
+
+ const Regions = () =>  {
         return (
-            <Wrapper>
-                <div className="ERgames">
+                <div>
                     <div className="E">
                         <h1>East</h1>
                     </div>
@@ -22,9 +20,8 @@ class Regions extends Component {
                     </div>
                     <RegionGames />
                 </div>
-            </Wrapper>
         );
     };
-};
+
 
 export default Regions;
