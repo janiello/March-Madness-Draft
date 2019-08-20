@@ -15,7 +15,7 @@
      position: absolute;
      top: 0;
      left: 34%;
-     height: 48vh;
+     height: 50%;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
@@ -25,7 +25,7 @@
     position: absolute;
     top: 50%;
     left: 34%;
-    height: 48vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,7 +34,7 @@
     position: absolute;
     top: 0;
     right: 34%;
-    height: 48vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -43,7 +43,7 @@
     position: absolute;
     top: 50%;
     right: 34%;
-    height: 48vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

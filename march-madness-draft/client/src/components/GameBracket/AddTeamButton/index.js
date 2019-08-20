@@ -49,8 +49,8 @@ handleAddingTeamToUser = (event) => {
                 };
             });
     
-     if (this.state.User.teams.length >= 8){
-        alert("too many teams");
+     if (this.state.User.teams.length > 7){
+        alert("your bracket is full");
 
     } else {
         API.saveTeam(

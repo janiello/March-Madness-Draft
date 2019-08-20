@@ -87,14 +87,22 @@
    flex-wrap: nowrap;
    justify-content: space-evenly;
    align-items: center;
- 
+   background: url("../images/Basketball_Court_Background_Slide_Show.jpg");
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   overflow: auto; 
 }
 .wrapperCSS {
-    height: 100vh;
-    width: 95vw;
+    height: 80vh;
+    width: 80vw;
     position: relative;
     background-image: url(../images/march_madness_court_colored.jpg);
     background-size: cover;
+    border-radius: 2%;
 }
 .tableCSS {
 border: 1px solid black;
