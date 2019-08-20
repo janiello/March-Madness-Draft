@@ -3,29 +3,30 @@ const cheerio = require("cheerio");
 
 module.exports = {
 findVideo: function(req, res){
-    axios.get("https://www.ncaa.com/news/basketball-men/bracketiq/2019-05-01/what-march-madness-ncaa-tournament-explained")
+    axios.get("https://www.ncaa.com/brackets/basketball-men/d1/2019")
     .then(function(response){
        
     const $ = cheerio.load(response.data);
     
-    const linkSite = "https://www.ncaa.com"
     var results = [];
-
-  $("div#video-player-1734803").each(function(i, element) {
-
-    var link = linkSite + $(element).find("a").attr("href");
-    console.log(element)
+  $("div.teams").each(function(i, element) {
+    
+    var img= $(element).find("img").attr("src");
+    var alt = $(element).find("img").attr("alt");
+   
     // Save these results in an object that we'll push into the results array we defined earlier
     results.push({
     
-      link: link
+      img: img,
+      alt: alt
     });
+  
   });
-
- //pass json link to the front end
+//  //pass json link to the front end
   res.json(results)
 
-
+  
 });
+    
 }
 }
