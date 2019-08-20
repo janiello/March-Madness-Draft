@@ -5,12 +5,6 @@ import Table from "../components/Draftboard/Table";
 
 
 function Bracket(){
-<<<<<<< HEAD
-    return(
-        <Wrapper>
-            <Regions />
-        </Wrapper>
-=======
 
     return (
         <div>
@@ -19,7 +13,6 @@ function Bracket(){
                 <Regions />
             </Wrapper>
         </div>
->>>>>>> master
     )
 };
 
