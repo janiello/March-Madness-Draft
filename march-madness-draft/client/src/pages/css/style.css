@@ -1,0 +1,86 @@
+.aboutStyle {
+    text-align: center;
+    background-color: darkgrey ;
+    height: fit-content;
+    width : 40%;
+    background: rgba(44, 44, 44, 0.863);
+    color: white;
+    border-radius: 5%;
+}
+.rulesBody {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/march_madness_court_colored.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    margin: 0;
+    overflow: hidden;
+}
+#videoContainer {
+    height: 50%;
+    width: 50%;
+}
+.navbar {
+    background-color: #333;
+    color:  white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navFlow {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.divLinkStyle {
+    border-radius: 5%;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0 5% 1% 5%;
+    background: linear-gradient(45deg, grey, blue, #1b18eb );
+    background-size: 400%;
+    text-align: center;
+    font-size: 200%;
+    animation: animate 10s alternate infinite;
+   
+}
+.linkStyle{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.linkStyle:hover {
+    color: white ;
+    border-radius: 5%;
+}
+.divLinkStyle:hover {
+    border-radius: 5%;
+    transform: scale(2, 2);
+    width: fit-content;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+  
+
+
+

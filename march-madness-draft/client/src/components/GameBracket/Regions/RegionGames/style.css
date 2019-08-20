@@ -36,7 +36,7 @@
     background-color: blue;
     margin-left: 13%;
     color: white;
-    background: linear-gradient(90deg, blue, red, grey);
+    background: linear-gradient(90deg, grey, blue, white);
     border-radius: 30px;
     background-size: 400%;
 }
@@ -95,7 +95,7 @@
     background-color: blue;
     margin-right: 13%;
     color: white;
-    background: linear-gradient(90deg, blue, red, grey);
+    background: linear-gradient(90deg,grey, blue, white );
     border-radius: 30px;
     background-size: 400%;
 }

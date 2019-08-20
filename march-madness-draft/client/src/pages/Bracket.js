@@ -5,11 +5,9 @@ import Regions from "../components/GameBracket/Regions";
 
 function Bracket(){
     return(
-
         <Wrapper>
             <Regions />
         </Wrapper>
-        
     )
 };
 
