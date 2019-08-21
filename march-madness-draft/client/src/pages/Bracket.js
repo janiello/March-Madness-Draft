@@ -8,7 +8,7 @@ function Bracket(){
 
     return (
         <div className="bracketContainer">
-            <Table tableCSS="tableCSS" />
+            <Table />
             <Wrap wrapperCSS="wrapperCSS" regions={<Regions />} />
         </div>
     )

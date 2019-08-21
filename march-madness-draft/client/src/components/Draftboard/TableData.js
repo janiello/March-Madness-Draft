@@ -3,7 +3,7 @@ import API from "../../utils/API";
 
 class TableData extends Component {
     state = {
-        users: [],
+        users: []
     };
 
     componentDidMount() {
@@ -19,13 +19,20 @@ class TableData extends Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
                 {this.state.users.map(user => (
-                    <tr>
-                        {user.username}
+                    <tr key={user._id}>
+                        <td key={user.username}>
+                            {user.username}
+                        </td>
+                        {user.teams.map(team => (
+                            <td key={team.id}>
+                                {team.name}
+                            </td>
+                        ))}
                     </tr>
                 ))}
-            </div>
+            </React.Fragment>
         )
     }
 }
