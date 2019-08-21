@@ -4,447 +4,511 @@
         "name": "Duke",
         "seed": 1,
         "division": "East",
-        "wins": 0  
+        "wins": 0,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Duke_Blue_Devils_logo.svg/1212px-Duke_Blue_Devils_logo.svg.png"
     },
     {
         "id": 2, 
         "name": "North Dakota State",
         "seed": 16,
         "division": "East",
-        "wins": 0  
+        "wins": 0,
+        "image": "https://www.flint-group.com/wp-content/uploads/2012/12/ndsu-bison-logo.png"
     },
     {
         "id": 3, 
         "name": "VCU",
         "seed": 8,
         "division": "East",
-        "wins": 0  
+        "wins": 0,
+        "image": "https://i.pinimg.com/originals/5a/23/3f/5a233f38c7cf1844c2f9c8a8075be092.jpg"
     },
     {
         "id": 4, 
         "name": "UCF",
         "seed": 9,
         "division": "East",
-        "wins": 0  
+        "wins": 0,
+        "image": "https://i.pinimg.com/originals/cf/df/63/cfdf630cdaac26ab5aab02f204f124bb.png" 
     },
     {
         "id": 5, 
         "name": "Mississippi St",
         "seed": 5,
         "division": "East",
-        "wins": 0  
+        "wins": 0,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81c3EyQeFlL._SX425_.jpg"
     },
     {
         "id": 6, 
         "name": "Liberty",
         "seed": 12,
         "division": "East",
-        "wins": 0  
+        "wins": 0,
+        "image": "https://www.liberty.edu/media/1911/athleticscommunications/logos/Liberty_JPEG_Athletics_Primary_Logo.jpg"
     },
     {
         "id": 7, 
         "name": "Virginia Tech",
         "seed": 4,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/ba/8d/41/ba8d41bc65263c5e48b3270c519944df.jpg"
     },
     {
         "id": 8, 
         "name": "Saint Louis",
         "seed": 13,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/1/00/100cbbff-c72a-54b2-bf14-8d0284212f0a/5305f4d77a5ab.image.gif"
     },
     {
         "id": 9, 
         "name": "Maryland",
         "seed": 6,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/32/743/full/2530.png"
     },
     {
         "id": 10, 
         "name": "Belmont",
         "seed": 11,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/1e/b2/c3/1eb2c31a6094e671a39dc1e79332cf28.jpg"
     },
     {
         "id": 11, 
         "name": "LSU",
         "seed": 3,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/32/723/full/5136_lsu_tigers-alternate-2002.png"
     },
     {
         "id": 12, 
         "name": "Yale",
         "seed": 14,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/35/920/full/1634_yale_bulldogs-alternate-2001.png"
     },
     {
         "id": 13, 
         "name": "Louisville",
         "seed": 7,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/1c/bb/5f/1cbb5f457e04177d33e1ebf5a349090f.png"
     },
     {
         "id": 14, 
         "name": "Minnesota",
         "seed": 10,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://joshharveysocialstudies.files.wordpress.com/2012/11/goldym2out-mg-lg.gif"
     },
     {
         "id": 15, 
         "name": "Michigan State",
         "seed": 2,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://bloximages.chicago2.vip.townnews.com/kokomoperspective.com/content/tncms/assets/v3/editorial/a/95/a9540d24-79fe-11e3-bfc1-001a4bcf887a/52cffb8a88733.image.jpg"
     },
     {
         "id": 16, 
         "name": "Bradley",
         "seed": 15,
         "division": "East",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/89/ae/dd/89aedd8e8193042ce6b3e2b55a1ee61a.jpg"
     },
     {
         "id": 17, 
         "name": "Gonzaga",
         "seed": 1,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/e8/aa/1f/e8aa1ff46b2e2294994e1e6ebabea26e.gif"
     },
     {
         "id": 18, 
         "name": "Fairleigh Dickinson",
         "seed": 16,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://collegead.com/wp-content/uploads/2017/08/FAIRLEIGH-DICKINSON-UNIVERSITY.jpg"
     },
     {
         "id": 19, 
         "name": "Syracuse",
         "seed": 8,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://exstreamist.com/wp-content/uploads/2017/01/Watch-Syracuse-Orange-Online.jpg"
     },
     {
         "id": 20, 
         "name": "Baylor",
         "seed": 9,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/5a/45/3a/5a453afd7ee6f1f25b660612b9e08255.gif"
     },
     {
         "id": 21, 
         "name": "Marquette",
         "seed": 5,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://cdn.bleacherreport.net/images/team_logos/328x328/marquette_basketball.png"
     },
     {
         "id": 22, 
         "name": "Murray State",
         "seed": 12,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://mediad.publicbroadcasting.net/p/wkms/files/styles/x_large/public/201502/msu_racers.jpg"
     },
     {
         "id": 23, 
         "name": "Florida State",
         "seed": 4,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://apps.startribune.com/blogs/user_images/ajrayno_1337023567_fsu-logo_1.jpg"
     },
     {
         "id": 24, 
         "name": "Vermont",
         "seed": 13,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/35/896/full/2969_vermont_catamounts-alternate-2010.png"
     },
     {
         "id": 25, 
         "name": "Buffalo",
         "seed": 6,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://cdn.vox-cdn.com/thumbor/n43k49Kg54ZMR7IO-1AHIQpE8P0=/0x0:700x500/1200x800/filters:focal(294x194:406x306)/cdn.vox-cdn.com/uploads/chorus_image/image/51690209/Buffalo.0.png"
     },
     {
         "id": 26, 
         "name": "Arizona State",
         "seed": 11,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://s3.amazonaws.com/sidearm.sites/asu.sidearmsports.com/images/responsive/club_logo.svg"
     },
     {
         "id": 27, 
         "name": "Texas Tech",
         "seed": 3,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://cdn.vox-cdn.com/thumbor/DM_liiNG23uAyXGmMqVTPX4zfZc=/0x0:400x400/1200x800/filters:focal(168x168:232x232)/cdn.vox-cdn.com/uploads/chorus_image/image/57650883/Texas_Tech_logo.0.jpg"
     },
     {
         "id": 28, 
         "name": "Northern Kentucky",
         "seed": 14,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Northern_Kentucky_Norse_logo.svg/1200px-Northern_Kentucky_Norse_logo.svg.png"
     },
     {
         "id": 29, 
         "name": "Nevada",
         "seed": 7,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Nevada_Wolf_Pack_logo.svg/1200px-Nevada_Wolf_Pack_logo.svg.png"
     },
     {
         "id": 30, 
         "name": "Florida",
         "seed": 10,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/32/47/e8/3247e8a85ef6542f2094294651d10072.jpg"
     },
     {
         "id": 31, 
         "name": "Michigan",
         "seed": 2,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://www.logolynx.com/images/logolynx/3d/3d2bed18ba4b707a0110ba317ea9ef8d.jpeg"
     },
     {
         "id": 32, 
         "name": "Montana",
         "seed": 15,
         "division": "West",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://1029espn.com/wp-content/uploads/2018/09/5775f95019c7b.image_.png"
     },
     {
         "id": 33, 
         "name": "Virginia",
         "seed": 1,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Virginia_Cavaliers_sabre.svg/1200px-Virginia_Cavaliers_sabre.svg.png"
     },
     {
         "id": 34, 
         "name": "Gardner-Webb",
         "seed": 16,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Gardner-Webb_Runnin%27_Bulldogs_logo.svg/1200px-Gardner-Webb_Runnin%27_Bulldogs_logo.svg.png"
     },
     {
         "id": 35, 
         "name": "Ole Miss",
         "seed": 18,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/33/OleMissRebels.jpg"
     },
     {
         "id": 36, 
         "name": "Oklahoma",
         "seed": 9,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/ba/9a/a4/ba9aa47a7fbf7573b478466b9be62667.png"
     },
     {
         "id": 37, 
         "name": "Wisconsin",
         "seed": 5,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/35/914/full/ech4ny6b3yj4bk98wynu.png"
     },
     {
         "id": 38, 
         "name": "Oregon",
         "seed": 12,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/33/797/full/5724_oregon_ducks-alternate-2011.png"
     },
     {
         "id": 39, 
         "name": "Kansas State",
         "seed": 4,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/1a/03/8f/1a038f0b0055d4d96ec2b0dbacbc105d.jpg"
     },
     {
         "id": 40, 
         "name": "UC Irvine",
         "seed": 13,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/c9/d9/3c/c9d93c0daa63e8c4fb3d019af73929c9.gif"
     },
     {
         "id": 41, 
         "name": "Villanova",
         "seed": 6,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/2f/34/44/2f344432c38d76fbe06e1b7872273ec3.jpg"
     },
     {
         "id": 42, 
         "name": "Saint Mary's",
         "seed": 11,
         "division": "South",
-        "wins": 0  
+        "wins": 0 ,
+        "image": "http://content.sportslogos.net/logos/34/852/full/4154_saint_marys_gaels-wordmark-2007.png" 
     },
     {
         "id": 43, 
         "name": "Purdue",
         "seed": 3,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/95/3e/d2/953ed2c9bcf3baf858661914b2c36b33.jpg"
     },
     {
         "id": 44, 
         "name": "Old Dominion",
         "seed": 14,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Old_Dominion_Athletics_logo.svg/1200px-Old_Dominion_Athletics_logo.svg.png"
     },
     {
         "id": 45, 
         "name": "Cincinnati",
         "seed": 7,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://sportslogohistory.com/wp-content/uploads/2018/02/cincinnati_bearcats_2006-pres_s.png"
     },
     {
         "id": 46, 
         "name": "Iowa",
         "seed": 10,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/6a/a0/b1/6aa0b17b6e2e8e4b3f521f504e36cc90.jpg"
     },
     {
         "id": 47, 
         "name": "Tennessee",
         "seed": 2,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/34/861/full/5428_tennessee_volunteers-alternate-2015.png"
     },
     {
         "id": 48, 
         "name": "Colgate",
         "seed": 15,
         "division": "South",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/3c/a1/1d/3ca11dfe96cbcab425ad09100508cd6d.png"
     },
     {
         "id": 49, 
         "name": "North Carolina",
         "seed": 1,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/33/775/full/4dhtnl0i2nj3n3otx8rmggenk.png"
     },
     {
         "id": 50, 
         "name": "Iona",
         "seed": 16,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/32/711/full/71wlevv9udu51qfi4rey7cvml.png"
     },
     {
         "id": 51, 
         "name": "Utah State",
         "seed": 8,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/35/893/full/2708.png"
     },
     {
         "id": 52, 
         "name": "Washington",
         "seed": 9,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/35/904/full/okb1uejzslieha7idphxcvc4i.png"
     },
     {
         "id": 53, 
         "name": "Auburn",
         "seed": 5,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://cdn.shopify.com/s/files/1/0247/5663/products/1352-auburn-university-tigers-au-basketball-mat-area-rug-home-goods-dorm-kids-office-decor_18f396b2-f788-4c27-b82f-fc80c9dfd5b9_1800x.jpg?v=1558487422"
     },
     {
         "id": 54, 
         "name": "New Mexico State",
         "seed": 12,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://bloximages.chicago2.vip.townnews.com/enidnews.com/content/tncms/assets/v3/editorial/9/d7/9d7714a8-5a07-11e4-881e-9b192472acb0/5447d9f28f6e0.image.png"
     },
     {
         "id": 55, 
         "name": "Kansas",
         "seed": 4,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0 ,
+        "image": "https://i.pinimg.com/originals/b6/e1/e4/b6e1e4586d2048e7848a4d9a37ae506b.jpg" 
     },
     {
         "id": 56, 
         "name": "Northeastern",
         "seed": 13,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0 ,
+        "image": "https://i.pinimg.com/originals/b0/ed/c2/b0edc2bf98074127b46a59e358552a99.jpg" 
     },
     {
         "id": 57, 
         "name": "Iowa State",
         "seed": 6,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0 ,
+        "image": "https://i.pinimg.com/originals/e9/32/51/e93251a4204d34d7c9c5e8bf58b4305b.gif" 
     },
     {
         "id": 58, 
         "name": "Ohio State",
         "seed": 11,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/06/ohiostathlonscarlet-e1540475481608.jpg"
     },
     {
         "id": 59, 
         "name": "Houston",
         "seed": 3,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Houston_Cougars_primary_logo.svg/1200px-Houston_Cougars_primary_logo.svg.png"
     },
     {
         "id": 60, 
         "name": "Georgia State",
         "seed": 14,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/31/689/full/k7aujqdefjffpmogug09qdm7n.gif"
     },
     {
         "id": 61, 
         "name": "Wofford",
         "seed": 7,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://d1marr3m5x4iac.cloudfront.net/images/edpborder500/I0-001/039/755/038-3.jpeg_/wofford-terriers-38.jpeg"
     },
     {
         "id": 62, 
         "name": "Seton Hall",
         "seed": 10,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://i.pinimg.com/originals/64/9b/92/649b92b5023c8a84e69e4ab7e439213a.png"
     },
     {
         "id": 63, 
         "name": "Kentucky",
         "seed": 2,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "http://content.sportslogos.net/logos/32/721/full/2510.png"
     },
     {
         "id": 64, 
         "name": "Abilene Christian",
         "seed": 15,
         "division": "Midwest",
-        "wins": 0  
+        "wins": 0  ,
+        "image": "https://media.graytvinc.com/images/810*604/1200px-Abilene_Christian_Wildcats_logo_svg.png"
     }
 ]
