@@ -9,19 +9,20 @@ class AddTeam extends Component {
         team1: [],
         User: [],
         UserID: [],
-        Users: []
+        Users: [],
+        disable: false
     };
    
 }
 componentDidMount() {
-  this.loadUser();
- 
+    this.loadUser();
 
 }
 loadUser = () => {
     const userLoggedIn = [];
     API.getUsers()
     .then(res => {
+        // eslint-disable-next-line
         res.data.map(user => {
         if (user.username === "Joe") {
  
@@ -37,14 +38,11 @@ loadUser = () => {
 }
 handleAddingTeamToUser = (event) => {
     event.preventDefault();
-    this.searchUsersTeam();
     const addTeams = [];
-    let userID;
-    let teamSeed;
+    // eslint-disable-next-line
     Teams.map(teams => {
          if (teams.name === this.props.addteam){
-             addTeams.push(teams);                
-             teamSeed = teams.seed                 
+             addTeams.push(teams);                               
                 };
             });
     
@@ -62,23 +60,10 @@ handleAddingTeamToUser = (event) => {
             .catch(err => console.log(err))                        
 ;}
 };
-searchUsersTeam = () => {
-    const teamsInArray = []
-    API.getUsers()
-    .then( res => {
-        res.data.map(users => teamsInArray.push(users.teams.name))
-        if (teamsInArray === this.props.addteam){
-            alert("team taken")
-        }
-        console.log(teamsInArray)
-    })
-}
-
-  
     render() {
        
         return(
-                <button addteam={this.props.children} onClick={this.handleAddingTeamToUser} className={this.props.addCSS}>AddTeam</button>
+                <button addteam={this.props.children} onClick={this.handleAddingTeamToUser}  className={this.props.addCSS}>AddTeam</button>
         )
     }
 }

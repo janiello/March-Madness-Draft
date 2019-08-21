@@ -7,6 +7,7 @@ import GameWin3 from "../../GAMES/gameWin3";
 import Championship from "../../GAMES/championship";
 import Button from "../../button"
 import AddTeam from "../../AddTeamButton";
+import API from "../../../../utils/API";
 
 class RegionGames extends Component {
     
@@ -17,6 +18,9 @@ class RegionGames extends Component {
         MidWestTeams: [],
         game01: [],
         score001: [],
+        disable: false,
+        teamsID: [],
+        color: "red",
         // disabled: false,
         // gamewin01: "",
         // gamewin02: "",
@@ -30,6 +34,7 @@ class RegionGames extends Component {
     };
     componentDidMount() {   
        this.loadTeams();
+       this.searchUsersTeam();
     };
     // teams are set too a state 
     loadTeams = () => {
@@ -39,6 +44,7 @@ class RegionGames extends Component {
         const southGames = [];
         const midWestGames =[];
         const Score0001 = [];
+        const teamID = [];
         // eslint-disable-next-line
         Teams.map((teams) => {
             if (teams.Division === "East") {
@@ -57,19 +63,36 @@ class RegionGames extends Component {
                 midWestGames.push(teams.name)
             this.setState({MidWestTeams: midWestGames})
             }; 
-
+            teamID.push(teams.id)
         });
         eastGames.forEach(function (element) {
-            let min = 35;
-            let max = 101;
+            let min = 70;
+            let max = 140;
             element = Math.floor(Math.random() * (max - min) + min);
             Score0001.push(element)
         })
         this.setState({
-            score001: Score0001
+            score001: Score0001,
+            teamsID: teamID
         })
     };
-  
+    searchUsersTeam = () => {
+        API.getUsers()
+        .then( res => {
+            res.data.map(users => (
+                 // eslint-disable-next-line
+                users.teams.map(teamName => {
+                     // eslint-disable-next-line
+                    this.state.teamsID.map(id => {
+                       if(id === teamName.id) {
+                           console.log(teamName)
+                       }
+                    })
+                })
+            ))         
+            //    disable={{disabled: this.searchUsersTeam ? "false" : "true"}}
+        })
+    }
     render() {
         const game1 = this.state.gamewin01;
         const game2 = this.state.gamewin02;
@@ -89,16 +112,16 @@ class RegionGames extends Component {
                 <Championship />
                 <div className="regionE">
                    <div className="egame1">
-                   <div className="teamDiv">{this.state.EastTeams[0]}</div> <AddTeam addCSS="addTeamButton td1" addteam={this.state.EastTeams[0]} />                      
+                   <div className="teamDiv">{this.state.EastTeams[0]}</div> <AddTeam notActive={this.state.color} addCSS="addTeamButton td1" addteam={this.state.EastTeams[0]} />                      
                         <p className="vs"></p>                        
                         <div className="teamDiv">{this.state.EastTeams[1]}</div> <AddTeam addCSS="addTeamButton td2" addteam={this.state.EastTeams[1]} />
                         <div className="score001">{this.state.score001[0]}</div>
                         <div className="score002">{this.state.score001[1]}</div>
                     </div>
                     <div className="egame1">
-                    <div className="teamDiv">{this.state.EastTeams[2]}</div> <AddTeam addCSS="addTeamButton  td1" addteam={this.state.EastTeams[2]}/>                     
+                    <div className="teamDiv">{this.state.EastTeams[2]}</div> <AddTeam addCSS="addTeamButton  td1"  disable={{disabled: this.searchUsersTeam ? "false" : "true"}}  addteam={this.state.EastTeams[2]}/>                     
                         <p className="vs"></p>
-                        <div className="teamDiv">{this.state.EastTeams[3]}</div> <AddTeam addCSS="addTeamButton td2" addteam={this.state.EastTeams[3]} />
+                        <div className="teamDiv">{this.state.EastTeams[3]}</div> <AddTeam addCSS="addTeamButton td2"  disabled={this.state.disable} addteam={this.state.EastTeams[3]} />
                         <div className="score001">{this.state.score001[2]}</div>
                         <div className="score002">{this.state.score001[3]}</div>
                     </div>
