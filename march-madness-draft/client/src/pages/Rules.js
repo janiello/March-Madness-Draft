@@ -10,12 +10,14 @@ class Rules extends Component {
         <div className="rulesBody">
         <div className="aboutStyle">
             <h1>About Alleyoop</h1>
-
             <p>Sixty-four teams, four regions, six rounds, one winner.
             <br/><br/>
             Our game has all the thrills of fantasy basketball-- chance, skill, luck, and loss.
+            <br/><br/>
+            Indulge your fantasy football.
             </p>
             <br/>
+
             <h1>The Rules</h1>
 
             <p>Each player chooses eight teams to root for, following their progression through the completion of the tournament. Whatever criteria you use to select your eight teams are entirely your own -- whether you choose your teams based on skill, luck, or loyalty just may be the difference between victory or defeat.
