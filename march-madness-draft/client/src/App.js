@@ -5,8 +5,13 @@ import Teams from './pages/Teams';
 import Rules from './pages/Rules';
 import Nav from './pages/Nav';
 import './App.css';
+import teams from './teams.json';
+import News from './pages/News';
 
 class App extends Component {
+    state = {
+        teams
+    }
  
 
     render() {
@@ -21,10 +26,15 @@ class App extends Component {
                     )} />
                     <Route path={"/Teams"} render={(props) => (
                         <React.Fragment>
-                            <Teams />
+                            <Teams teams={this.state.teams} />
                         </React.Fragment>
                     )}
                     />
+                    <Route path={"/News"} render={(props) => (
+                        <React.Fragment>
+                            <News />
+                        </React.Fragment>
+                    )} />
                     <Route path={"/Bracket"} render={(props) => (
                         <React.Fragment>
                             <Bracket />
