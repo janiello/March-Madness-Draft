@@ -7,6 +7,7 @@ import Regions from "../components/GameBracket/Regions";
 function Bracket(){
 
     return (
+        
         <div className="bracketContainer">
             <Table />
             <Wrap wrapperCSS="wrapperCSS" regions={<Regions />} />

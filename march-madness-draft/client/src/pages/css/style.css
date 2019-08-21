@@ -8,10 +8,9 @@
     border-radius: 5%;
 }
 .rulesBody {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../images/march_madness_court_colored.jpg");
-    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background: url("../images/march_madness_court_colored.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -31,12 +30,13 @@
     background-color: #333;
     color:  white;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: sticky;
     top: 0;
     z-index: 3;
+    text-align: center;
 }
 .navFlow {
     display: flex;
@@ -81,24 +81,19 @@
     }
 }
 .bracketContainer {
-
-   display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
    justify-content: space-evenly;
    align-items: center;
    background: url("../images/Basketball_Court_Background_Slide_Show.jpg");
    background-size: cover;
-   height: 100%;
-   width: 100%;
+   background-attachment: fixed;
    display: flex;
    flex-direction: column;
    flex-wrap: nowrap;
-   overflow: auto; 
+ 
 }
 .wrapperCSS {
-    height: 80vh;
-    width: 80vw;
+    height: 85vh;
+    width: 85%;
     position: relative;
     background-image: url(../images/march_madness_court_colored.jpg);
     background-size: cover;
@@ -107,10 +102,12 @@
 
 table {
     border-collapse: collapse;
+    background: rgba(44, 44, 44, 0.6);
+    color: whitesmoke;
 }
 
 td, th {
-    border: 1px solid black;
+    border: 1px solid cornflowerblue;
     padding: 0.5rem;
     text-align: center;
 }

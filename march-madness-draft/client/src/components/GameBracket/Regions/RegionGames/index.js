@@ -81,7 +81,7 @@ class RegionGames extends Component {
         const game8 = this.state.gamewin08;
         return (
            
-            <div>
+            <React.Fragment>
                 <Button click={this.handleButton}  name="Start" />
                 <GameWin1 game1={game1} game2={game2} game3={game3} game4={game4} game5={game5} game6={game6} game7={game7} game8={game8} />
                 <GameWin2 />
@@ -320,7 +320,7 @@ class RegionGames extends Component {
                         <div className="scoreLeft2">{this.state.score001[15]}</div>
                     </div>
                 </div>
-</div>
+                </React.Fragment>
         );
 };
 };

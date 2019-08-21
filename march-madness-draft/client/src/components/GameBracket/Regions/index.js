@@ -5,7 +5,7 @@ import RegionGames from "./RegionGames";
 
  const Regions = () =>  {
         return (
-                <div>
+               <React.Fragment>
                     <div className="E">
                         <h1>East</h1>
                     </div>
@@ -19,7 +19,7 @@ import RegionGames from "./RegionGames";
                         <h1>MidWest</h1>
                     </div>
                     <RegionGames />
-                </div>
+                    </React.Fragment>
         );
     };
 
