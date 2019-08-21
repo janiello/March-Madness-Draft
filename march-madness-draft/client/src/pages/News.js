@@ -7,12 +7,7 @@ class Teams extends Component {
 
     render(){
         return(
-            
-            <Wrapper>
-            { this.props.teams.map(team => (
-                <TeamsCard key={team.id} team = {team}  />
-            ))}
-            </Wrapper>
+            <p>News Div</p>
         )
     }
 
