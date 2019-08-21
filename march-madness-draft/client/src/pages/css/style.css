@@ -96,10 +96,15 @@
     background-image: url(../images/march_madness_court_colored.jpg);
     background-size: cover;
 }
-.tableCSS {
-border: 1px solid black;
-background-color: red;
-height: 30vh;
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
 }
   
 

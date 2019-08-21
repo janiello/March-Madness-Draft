@@ -1,10 +1,10 @@
 import React from "react";
 import TableData from "./TableData";
 
-function Table(props) {
+function Table() {
     return (
-        <div className={props.tableCSS}>
-            <table className="user-data">
+        <table className="user-data">
+            <thead>
                 <tr className="header">
                     <th>User</th>
                     <th>Team 1</th>
@@ -16,9 +16,11 @@ function Table(props) {
                     <th>Team 7</th>
                     <th>Team 8</th>
                 </tr>
+            </thead>
+            <tbody>
                 <TableData />
-            </table>
-        </div>
+            </tbody>
+        </table>
     )
 }
 
