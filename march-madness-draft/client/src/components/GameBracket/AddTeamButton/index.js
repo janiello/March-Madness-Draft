@@ -24,7 +24,7 @@ loadUser = () => {
     API.getUsers()
     .then(res => {
         res.data.map(user => {
-        if (user.username === "Eduardo") {
+        if (user.username === "Joe") {
  
             userLoggedIn.push(user._id) 
             this.setState({
