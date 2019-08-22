@@ -3,7 +3,7 @@ const db = require("../models");
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://localhost/draftboard"
+    "mongodb://user:CanoTuba2012!@ds211708.mlab.com:11708/heroku_5d916bgb"
 );
 
 const userSeed = [
