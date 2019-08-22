@@ -10,7 +10,7 @@ class News extends Component {
         this.news()
     };
     news = () => {
-        API.getVideoRules()
+        API.getArticles()
             .then(res => {
                 this.setState({news: res.data})})
                 .catch(error => console.log (error));

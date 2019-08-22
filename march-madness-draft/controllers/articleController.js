@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 module.exports = {
-findVideo: function(req, res){
+findArticles: function(req, res){
     axios.get("https://www.usatoday.com/sports/ncaab/")
     .then(function(response){
        

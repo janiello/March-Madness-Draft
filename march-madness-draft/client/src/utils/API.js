@@ -7,8 +7,8 @@ export default {
     getUser: function (id) {
         return axios.get("/api/users" + id);
     },
-    getVideoRules: function () {
-        return axios.get("/api/video")
+    getArticles: function () {
+        return axios.get("/api/articles")
     },
     // Deletes the book with the given id
     deleteUser: function (id) {
