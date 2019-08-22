@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ceed9687.chunk.css",
-    "main.js": "/static/js/main.5c4b4aff.chunk.js",
-    "main.js.map": "/static/js/main.5c4b4aff.chunk.js.map",
+    "main.css": "/static/css/main.cf76857d.chunk.css",
+    "main.js": "/static/js/main.07c4d848.chunk.js",
+    "main.js.map": "/static/js/main.07c4d848.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.ef709790.js",
     "runtime~main.js.map": "/static/js/runtime~main.ef709790.js.map",
-    "static/js/2.035074e1.chunk.js": "/static/js/2.035074e1.chunk.js",
-    "static/js/2.035074e1.chunk.js.map": "/static/js/2.035074e1.chunk.js.map",
+    "static/js/2.4f6bb646.chunk.js": "/static/js/2.4f6bb646.chunk.js",
+    "static/js/2.4f6bb646.chunk.js.map": "/static/js/2.4f6bb646.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c44a8425ac27552fef9796ca01ee87a6.js": "/precache-manifest.c44a8425ac27552fef9796ca01ee87a6.js",
+    "precache-manifest.7cd66438bdc3a64ef86bfa87b9582501.js": "/precache-manifest.7cd66438bdc3a64ef86bfa87b9582501.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ceed9687.chunk.css.map": "/static/css/main.ceed9687.chunk.css.map"
+    "static/css/main.cf76857d.chunk.css.map": "/static/css/main.cf76857d.chunk.css.map",
+    "static/media/style.css": "/static/media/march_madness_court_colored.7c443f1c.jpg"
   }
 }
