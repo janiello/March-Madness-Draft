@@ -20,7 +20,7 @@ class RegionGames extends Component {
         score001: [],
         disable: false,
         teamsID: [],
-        color: "red",
+        color: {color: ""},
         // disabled: false,
         // gamewin01: "",
         // gamewin02: "",
@@ -33,12 +33,18 @@ class RegionGames extends Component {
         user : []
     };
     componentDidMount() {   
-       this.loadTeams();
-       this.searchUsersTeam();
+        this.mounted = true;   
+        this.loadTeams();
+    
+
     };
+    componentWillUnmount(){   
+        this.mounted = false;
+    }
+   
     // teams are set too a state 
     loadTeams = () => {
-        
+        this.mounted= true;
         const eastGames = [];
         const westGames = [];
         const southGames = [];
@@ -47,19 +53,19 @@ class RegionGames extends Component {
         const teamID = [];
         // eslint-disable-next-line
         Teams.map((teams) => {
-            if (teams.Division === "East") {
+            if (teams.division === "East") {
                 eastGames.push(teams.name)
             this.setState({EastTeams: eastGames})
             }; 
-            if (teams.Division === "West") {
+            if (teams.division === "West") {
                 westGames.push(teams.name)
             this.setState({WestTeams: westGames})
             }; 
-            if (teams.Division === "South") {
+            if (teams.division === "South") {
                 southGames.push(teams.name)
             this.setState({SouthTeams: southGames})
             }; 
-            if (teams.Division === "Midwest") {
+            if (teams.division === "Midwest") {
                 midWestGames.push(teams.name)
             this.setState({MidWestTeams: midWestGames})
             }; 
@@ -85,7 +91,7 @@ class RegionGames extends Component {
                      // eslint-disable-next-line
                     this.state.teamsID.map(id => {
                        if(id === teamName.id) {
-                           console.log(teamName)
+                          this.setState({color: {color: "red"}})
                        }
                     })
                 })
@@ -112,7 +118,7 @@ class RegionGames extends Component {
                 <Championship />
                 <div className="regionE">
                    <div className="egame1">
-                   <div className="teamDiv">{this.state.EastTeams[0]}</div> <AddTeam notActive={this.state.color} addCSS="addTeamButton td1" addteam={this.state.EastTeams[0]} />                      
+                   <div className="teamDiv">{this.state.EastTeams[0]}</div> <AddTeam  style={this.state.color} addCSS="addTeamButton td1"  addteam={this.state.EastTeams[0]} />                      
                         <p className="vs"></p>                        
                         <div className="teamDiv">{this.state.EastTeams[1]}</div> <AddTeam addCSS="addTeamButton td2" addteam={this.state.EastTeams[1]} />
                         <div className="score001">{this.state.score001[0]}</div>

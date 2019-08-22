@@ -20,7 +20,6 @@
     align-items: center;
     border: none;
     margin: 0;
-    overflow: hidden;
 }
 #videoContainer {
     height: 50%;
@@ -111,7 +110,63 @@ td, th {
     padding: 0.5rem;
     text-align: center;
 }
-  
+.newsPage {
+    background-image: url("../images/march_madness_court_colored.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articles {
+    height: 30vh;
+    width: 60%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #1b18eb;
+    margin-top: 20px;
+    border-radius: 1%;
+    position: relative;
 
+    
+}
+.aImg {
+    height: 120px;
+    width: 210px;
+    margin: 0;
+    background-color: green;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.aHeadLine {
+    width: 67%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    height: 55%;
+    font-size: 36px;
+    color: whitesmoke
+}
+.aP {
+    color: #006cfa;
+    width: 90%;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+}
+/*   
 
+="a.articles">
+                  <a className="a.link" key={e} href={articles.link}> 
+                       <img className="a.img" key={i} alt="img.article" src={articles.img} />
+                    <h1 key={o} className="a.headLine">{articles.headline}</h1>
+                    <p classNam="a.p" key={u}>{articles.art */
 

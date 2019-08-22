@@ -15,10 +15,15 @@ class AddTeam extends Component {
    
 }
 componentDidMount() {
+    this.mounted = true;
     this.loadUser();
 
 }
+componentWillUnmount() {
+    this.mounted = false;
+}
 loadUser = () => {
+   
     const userLoggedIn = [];
     API.getUsers()
     .then(res => {
@@ -63,7 +68,7 @@ handleAddingTeamToUser = (event) => {
     render() {
        
         return(
-                <button addteam={this.props.children} onClick={this.handleAddingTeamToUser}  className={this.props.addCSS}>AddTeam</button>
+                <button addteam={this.props.children} onClick={this.handleAddingTeamToUser} style={this.props.style} className={this.props.addCSS}>AddTeam</button>
         )
     }
 }
