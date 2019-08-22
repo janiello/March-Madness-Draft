@@ -16,8 +16,9 @@ class App extends Component {
 
     render() {
         return (
+            <React.Fragment>
             <Router>
-                <div className="App">
+               
                     <Nav />
                     <Route exact path={"/"} render={(props) => (
                         <React.Fragment>
@@ -40,8 +41,9 @@ class App extends Component {
                             <Bracket />
                         </React.Fragment>
                     )} />
-                    </div>
+                   
             </Router>
+            </React.Fragment>
            
         )
     }

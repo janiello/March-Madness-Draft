@@ -8,10 +8,9 @@
     border-radius: 5%;
 }
 .rulesBody {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../images/march_madness_court_colored.jpg");
-    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background: url("../images/march_madness_court_colored.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -21,7 +20,6 @@
     align-items: center;
     border: none;
     margin: 0;
-    overflow: hidden;
 }
 #videoContainer {
     height: 50%;
@@ -31,12 +29,13 @@
     background-color: #333;
     color:  white;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: sticky;
     top: 0;
     z-index: 3;
+    text-align: center;
 }
 .navFlow {
     display: flex;
@@ -81,32 +80,93 @@
     }
 }
 .bracketContainer {
-
+   justify-content: space-evenly;
+   align-items: center;
+   background: url("../images/Basketball_Court_Background_Slide_Show.jpg");
+   background-size: cover;
+   background-attachment: fixed;
    display: flex;
    flex-direction: column;
    flex-wrap: nowrap;
-   justify-content: space-evenly;
-   align-items: center;
  
 }
 .wrapperCSS {
-    height: 100vh;
-    width: 95vw;
+    height: 85vh;
+    width: 85%;
     position: relative;
     background-image: url(../images/march_madness_court_colored.jpg);
     background-size: cover;
+    border-radius: 2%;
 }
 
 table {
     border-collapse: collapse;
+    background: rgba(44, 44, 44, 0.6);
+    color: whitesmoke;
 }
 
 td, th {
-    border: 1px solid black;
+    border: 1px solid cornflowerblue;
     padding: 0.5rem;
     text-align: center;
 }
-  
+.newsPage {
+    background-image: url("../images/march_madness_court_colored.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articles {
+    height: 30vh;
+    width: 60%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #1b18eb;
+    margin-top: 20px;
+    border-radius: 1%;
+    position: relative;
 
+    
+}
+.aImg {
+    height: 120px;
+    width: 210px;
+    margin: 0;
+    background-color: green;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.aHeadLine {
+    width: 67%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    height: 55%;
+    font-size: 36px;
+    color: whitesmoke
+}
+.aP {
+    color: #006cfa;
+    width: 90%;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+}
+/*   
 
+="a.articles">
+                  <a className="a.link" key={e} href={articles.link}> 
+                       <img className="a.img" key={i} alt="img.article" src={articles.img} />
+                    <h1 key={o} className="a.headLine">{articles.headline}</h1>
+                    <p classNam="a.p" key={u}>{articles.art */
 

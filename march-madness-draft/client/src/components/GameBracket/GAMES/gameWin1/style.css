@@ -1,16 +1,4 @@
 
-/* .win1 { 
-    height: 10vh;
-    width: 8vw; 
-    /* border: 2px solid red; 
-    border-radius: 5%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-    
-
- }  */
- 
  .box1 {
     /* height: fit-content; */
     text-align: left;
@@ -25,18 +13,7 @@
    border: 2px solid red;
    text-align: center;
  } 
-/*  
- .win01 { 
-    height: 10vh;
-    width: 8vw; 
-    border: 2px solid red;
-    border-radius: 5%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-    
 
- }  */
  .box01 {
     height: fit-content;
     text-align: right;
@@ -55,10 +32,11 @@
      position: absolute;
      top: 0;
      left: 18%;
-     height: 48vh;
+     height: 50%;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
+    
   
     
  }
@@ -66,7 +44,7 @@
     position: absolute;
     top: 50%;
     left: 18%;
-    height: 48vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -75,7 +53,7 @@
     position: absolute;
     top: 0;
     right: 18%;
-    height: 48vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -84,7 +62,7 @@
     position: absolute;
     top: 50%;
     right: 18%;
-    height: 48vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import "./css/style.css";
-import API from "../utils/API";
 
 class Rules extends Component {
-  
+
     render() {
-      
+
+    
     return (
         <div className="rulesBody">
         <div className="aboutStyle">
@@ -29,8 +29,8 @@ class Rules extends Component {
             Good luck!
             </p>
  </div>
- <iframe width="806" height="453" src="https://www.youtube.com/embed/BLDb8sK95PE" 
- frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+ <iframe id="video" width="806" height="453" src="https://www.youtube.com/embed/BLDb8sK95PE" 
+ frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="marchMadness"></iframe>
  </div>
     )
 }

@@ -1,9 +1,7 @@
 
 .egame1 {
     position: relative;
-    margin: 0;
     text-align: left;
-    font-size: 80.5%;
     border-radius: 3%;
     white-space: nowrap;
     border: 1px solid blue;
@@ -32,12 +30,15 @@
     background-color: whitesmoke;
 }
 .addTeamButton {
+    height: 44%;
     width: 35%;
     background-color: blue;
     color: white;
     background: linear-gradient(90deg, grey, blue, white);
     border-radius: 30px;
     background-size: 400%;
+    font-size: 75%;
+    text-align: center;
 }
 .addTeamButton:hover {
     animation: animate 8s linear infinite;
@@ -56,11 +57,8 @@
 
 
 .egame2 {
-    white-space: nowrap;
     position: relative;
-    margin: 0;
     text-align: right;
-    font-size: 80.8%;
     border-radius: 3%;
     border: 1px solid blue;
     background-color: darkgrey;
@@ -94,11 +92,14 @@
 }
 .addTeamButton1 {
     width: 35%;
+    height:44%;
     margin-right: 13%;
     color: white;
     background: linear-gradient(90deg,grey, blue, white );
     border-radius: 30px;
     background-size: 400%;
+    font-size: 75%;
+    text-align: center;
 }
 .addTeamButton1:hover {
     animation: animate 8s linear infinite;
@@ -117,31 +118,34 @@
 .teamDiv {
     width: fit-content;
     margin: 0;
-    padding: 1%;
+    
 }
 .td1 {
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 9%;
+    border: none;
 }
 .td2 {
     position: absolute;
     bottom: 0;
-    right: 15%;
+    right: 9%;
+    border: none;
 }
 .td3 {
     position: absolute;
     top: 0;
-    left: 15%;
+    left: 9%;
+    border: none;
 }
 .td4 {
     position: absolute;
     bottom: 0;
-    left: 15%;
+    left: 9%;
+    border: none;
 }
 .teamDivRight {
     width: fit-content;
-    margin: 0;
-    padding: 1.3%;
-    margin-left: 60%;
+    margin-left: 50%;
+
 }
